@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <a href="index.html" class="logo">
+            <img src="images/logo.svg" alt="" class="logo__img">
+          </a>
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__list-item">
+                <a href="#" class="menu__list-link menu__list-link--active">НОВЫЕ АВТОМОБИЛИ</a>
+              </li>
+              <!-- <li class="menu__list-item">
+                <a href="#" class="menu__list-link">ПОДЕРЖАННЫЕ АВТОМОБИЛИ</a>
+              </li> -->
+              <!-- <li class="menu__list-item">
+                <a href="#" class="menu__list-link">FINANCE</a>
+              </li>
+              <li class="menu__list-item">
+                <a href="#" class="menu__list-link">LEASE VS BUY</a>
+              </li> -->
+              <li class="menu__list-item">
+                <a href="contacts.html" class="menu__list-link">связаться с нами</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="choose">
+        <div class="container">
+          <h2 class="section-title">
+            Выбери свой автомобиль
+          </h2>
+          <div class="tabs">
+            <div class="tabs__btn">
+              <button class="tabs__btn-item tabs__btn-item--active" data-button="content-1">Легковые автомобили</button>
+              <button class="tabs__btn-item" data-button="content-2">Грузовики</button>
+              <button class="tabs__btn-item" data-button="content-3">Кроссоверы и внедорожники</button>
+              <button class="tabs__btn-item" data-button="content-4">Электрические авто</button>
+            </div>
+            <div class="tabs__content">
+              <div class="tabs__content-item tabs__content-item--active" id="content-1">
+                <div class="card">
+                  <img src="images/card-1.jpg" alt="" class="card__img">
+                  <div class="card__content">
+                    <h4 class="card__title">Toyota Crown 2023</h4>
+                    <p class="card__text">начальная цена ₽ 3990000</p>
+                    <p class="card__price"> 65000 ₽/мес</p>
+                  </div>
+                  <a href="contacts.html" class="card__link">связаться с нами</a>
+                </div>
+                <div class="card">
+                  <img src="images/card-2.jpg" alt="" class="card__img">
+                  <div class="card__content">
+                    <h4 class="card__title">Prius Prime 2023</h4>
+                    <p class="card__text">начальная цена ₽ 3990000.</p>
+                    <p class="card__price">45000 ₽/мес</p>
+                  </div>
+                  <a href="contacts.html" class="card__link">связаться с нами</a>
+                </div>
+                <div class="card">
+                  <img src="images/card-3.jpg" alt="" class="card__img">
+                  <div class="card__content">
+                    <h4 class="card__title">Toyota Prius 2023</h4>
+                    <p class="card__text">начальная цена ₽ 3990000</p>
+                    <p class="card__price">40000 ₽/мес</p>
+                  </div>
+                  <a href="contacts.html" class="card__link">связаться с нами</a>
+                </div>
+                <div class="card">
+                  <img src="images/card-4.jpg" alt="" class="card__img">
+                  <div class="card__content">
+                    <h4 class="card__title">Hyundai Kona 2023</h4>
+                    <p class="card__text">начальная цена ₽ 39900</p>
+                    <p class="card__price">51000 ₽/мес</p>
+                  </div>
+                  <a href="contacts.html" class="card__link">связаться с нами</a>
+                </div>
+                <div class="card">
+                  <img src="images/card-5.jpg" alt="" class="card__img">
+                  <div class="card__content">
+                    <h4 class="card__title">Ford Explorer 2023</h4>
+                    <p class="card__text">начальная цена ₽ 3990000</p>
+                    <p class="card__price">100000 ₽/мес</p>
+                  </div>
+                  <a href="contacts.html" class="card__link">связаться с нами</a>
+                </div>
+                <div class="card">
+                  <img src="images/card-6.jpg" alt="" class="card__img">
+                  <div class="card__content">
+                    <h4 class="card__title">Santa  Fe 2023</h4>
+                    <p class="card__text">начальная цена ₽ 3990000</p>
+                    <p class="card__price">73900 ₽/мес</p>
+                  </div>
+                  <a href="contacts.html" class="card__link">связаться с нами</a>
+                </div>
+                <div class="card">
+                  <img src="images/card-7.jpg" alt="" class="card__img">
+                  <div class="card__content">
+                    <h4 class="card__title">KIA Niro 2023</h4>
+                    <p class="card__text">начальная цена ₽ 3360000</p>
+                    <p class="card__price">55000 ₽/мес</p>
+                  </div>
+                  <a href="contacts.html" class="card__link">связаться с нами</a>
+                </div>
+                <div class="card">
+                  <img src="images/card-8.jpg" alt="" class="card__img">
+                  <div class="card__content">
+                    <h4 class="card__title">Chevrolet Silverado</h4>
+                    <p class="card__text">начальная цена ₽ 6290000</p>
+                    <p class="card__price">85000 ₽/мес</p>
+                  </div>
+                  <a href="contacts.html" class="card__link">связаться с нами</a>
+                </div>
+                <div class="card">
+                  <img src="images/card-9.jpg" alt="" class="card__img">
+                  <div class="card__content">
+                    <h4 class="card__title">Honda CR-V 2023</h4>
+                    <p class="card__text">начальная цена ₽ 3560000</p>
+                    <p class="card__price">59000 ₽/мес</p>
+                  </div>
+                  <a href="contacts.html" class="card__link">связаться с нами</a>
+                </div>
+                <div class="card">
+                  <img src="images/card-10.jpg" alt="" class="card__img">
+                  <div class="card__content">
+                    <h4 class="card__title">Hyundai Tucson</h4>
+                    <p class="card__text">начальная цена ₽ 3180000</p>
+                    <p class="card__price">52000 ₽/мес</p>
+                  </div>
+                  <a href="contacts.html" class="card__link">связаться с нами</a>
+                </div>
+                <div class="card">
+                  <img src="images/card-11.jpg" alt="" class="card__img">
+                  <div class="card__content">
+                    <h4 class="card__title">Chevrolet Equinox </h4>
+                    <p class="card__text">начальная цена ₽ 2840000</p>
+                    <p class="card__price">40000 ₽/мес</p>
+                  </div>
+                  <a href="contacts.html" class="card__link">связаться с нами</a>
+                </div>
+                <div class="card">
+                  <img src="images/card-12.jpg" alt="" class="card__img">
+                  <div class="card__content">
+                    <h4 class="card__title">Jeep Wrangler 2023</h4>
+                    <p class="card__text">начальная цена ₽ 6000000</p>
+                    <p class="card__price">90000 ₽/мес</p>
+                  </div>
+                  <a href="contacts.html" class="card__link">связаться с нами</a>
+                </div>
+              </div>
+
+              <div class="tabs__content-item" id="content-2">
+                <div class="card">
+                  <img src="images/card-5.jpg" alt="" class="card__img">
+                  <div class="card__content">
+                    <h4 class="card__title">Toyota Crown 2023</h4>
+                    <p class="card__text">начальная цена ₽ 3990000</p>
+                    <p class="card__price">39000 ₽/мес</p>
+                  </div>
+                  <a href="contacts.html" class="card__link">связаться с нами</a>
+                </div>
+                <div class="card">
+                  <img src="images/card-11.jpg" alt="" class="card__img">
+                  <div class="card__content">
+                    <h4 class="card__title">Prius Prime 2023</h4>
+                    <p class="card__text">начальная цена ₽ 3990000</p>
+                    <p class="card__price">48000 ₽/мес</p>
+                  </div>
+                  <a href="contacts.html" class="card__link">связаться с нами</a>
+                </div>
+                <div class="card">
+                  <img src="images/card-7.jpg" alt="" class="card__img">
+                  <div class="card__content">
+                    <h4 class="card__title">Toyota Prius 2023</h4>
+                    <p class="card__text">начальная цена ₽ 6090000</p>
+                    <p class="card__price">65000 ₽/мес</p>
+                  </div>
+                  <a href="contacts.html" class="card__link">связаться с нами</a>
+                </div>
+                <div class="card">
+                  <img src="images/card-4.jpg" alt="" class="card__img">
+                  <div class="card__content">
+                    <h4 class="card__title">Hyundai Kona 2023</h4>
+                    <p class="card__text">начальная цена ₽ 5200000</p>
+                    <p class="card__price">80000 ₽/мес</p>
+                  </div>
+                  <a href="contacts.html" class="card__link">связаться с нами</a>
+                </div>
+                <div class="card">
+                  <img src="images/card-1.jpg" alt="" class="card__img">
+                  <div class="card__content">
+                    <h4 class="card__title">Toyota Crown 2023</h4>
+                    <p class="card__text">начальная цена ₽ 3990000</p>
+                    <p class="card__price">40000 ₽/мес</p>
+                  </div>
+                  <a href="contacts.html" class="card__link">связаться с нами</a>
+                </div>
+              </div>
+
+              <div class="tabs__content-item" id="content-3">
+                <div class="card">
+                  <img src="images/card-12.jpg" alt="" class="card__img">
+                  <div class="card__content">
+                    <h4 class="card__title">Toyota Crown 2023</h4>
+                    <p class="card__text">начальная цена ₽ 6220000</p>
+                    <p class="card__price">55000 ₽/мес</p>
+                  </div>
+                  <a href="contacts.html" class="card__link">связаться с нами</a>
+                </div>
+                <div class="card">
+                  <img src="images/card-2.jpg" alt="" class="card__img">
+                  <div class="card__content">
+                    <h4 class="card__title">Prius Prime 2023</h4>
+                    <p class="card__text">начальная цена ₽ 5990000</p>
+                    <p class="card__price">60000 ₽/мес</p>
+                  </div>
+                  <a href="contacts.html" class="card__link">связаться с нами</a>
+                </div>
+                <div class="card">
+                  <img src="images/card-4.jpg" alt="" class="card__img">
+                  <div class="card__content">
+                    <h4 class="card__title">Toyota Prius 2023</h4>
+                    <p class="card__text">начальная цена ₽ 3990000</p>
+                    <p class="card__price">65000 ₽/мес</p>
+                  </div>
+                  <a href="contacts.html" class="card__link">связаться с нами</a>
+                </div>
+                <div class="card">
+                  <img src="images/card-3.jpg" alt="" class="card__img">
+                  <div class="card__content">
+                    <h4 class="card__title">Hyundai Kona 2023</h4>
+                    <p class="card__text">начальная цена ₽ 3100000</p>
+                    <p class="card__price">55000 ₽/мес</p>
+                  </div>
+                  <a href="contacts.html" class="card__link">связаться с нами</a>
+                </div>
+                <div class="card">
+                  <img src="images/card-1.jpg" alt="" class="card__img">
+                  <div class="card__content">
+                    <h4 class="card__title">Toyota Crown 2023</h4>
+                    <p class="card__text">начальная цена ₽ 6200000</p>
+                    <p class="card__price">40000 ₽/мес</p>
+                  </div>
+                  <a href="contacts.html" class="card__link">связаться с нами</a>
+                </div><div class="card">
+                  <img src="images/card-5.jpg" alt="" class="card__img">
+                  <div class="card__content">
+                    <h4 class="card__title">Toyota Crown 2023</h4>
+                    <p class="card__text">начальная цена ₽ 4500000</p>
+                    <p class="card__price">39000 ₽/мес</p>
+                  </div>
+                  <a href="contacts.html" class="card__link">связаться с нами</a>
+                </div>
+                <div class="card">
+                  <img src="images/card-2.jpg" alt="" class="card__img">
+                  <div class="card__content">
+                    <h4 class="card__title">Prius Prime 2023</h4>
+                    <p class="card__text">начальная цена ₽ 6200000</p>
+                    <p class="card__price">50000 ₽/мес</p>
+                  </div>
+                  <a href="contacts.html" class="card__link">связаться с нами</a>
+                </div>
+                <div class="card">
+                  <img src="images/card-3.jpg" alt="" class="card__img">
+                  <div class="card__content">
+                    <h4 class="card__title">Toyota Prius 2023</h4>
+                    <p class="card__text">начальная цена ₽ 6000000</p>
+                    <p class="card__price">55000 ₽/мес</p>
+                  </div>
+                  <a href="contacts.html" class="card__link">связаться с нами</a>
+                </div>
+                <div class="card">
+                  <img src="images/card-4.jpg" alt="" class="card__img">
+                  <div class="card__content">
+                    <h4 class="card__title">Hyundai Kona 2023</h4>
+                    <p class="card__text">начальная цена ₽ 3500000</p>
+                    <p class="card__price">46000 ₽/мес</p>
+                  </div>
+                  <a href="contacts.html" class="card__link">связаться с нами</a>
+                </div>
+                <div class="card">
+                  <img src="images/card-6.jpg" alt="" class="card__img">
+                  <div class="card__content">
+                    <h4 class="card__title">Toyota Crown 2023</h4>
+                    <p class="card__text">начальная цена ₽ 3890000</p>
+                    <p class="card__price">50000 ₽/мес</p>
+                  </div>
+                  <a href="contacts.html" class="card__link">связаться с нами</a>
+                </div>
+              </div>
+
+              <div class="tabs__content-item" id="content-4">
+                <div class="card">
+                  <img src="images/card-8.jpg" alt="" class="card__img">
+                  <div class="card__content">
+                    <h4 class="card__title">Toyota Crown 2023</h4>
+                    <p class="card__text">начальная цена ₽ 6090000</p>
+                    <p class="card__price">65000 ₽/мес</p>
+                  </div>
+                  <a href="contacts.html" class="card__link">связаться с нами</a>
+                </div>
+                <div class="card">
+                  <img src="images/card-2.jpg" alt="" class="card__img">
+                  <div class="card__content">
+                    <h4 class="card__title">Prius Prime 2023</h4>
+                    <p class="card__text">начальная цена ₽ 5590000</p>
+                    <p class="card__price">60000 ₽/мес</p>
+                  </div>
+                  <a href="contacts.html" class="card__link">связаться с нами</a>
+                </div>
+                <div class="card">
+                  <img src="images/card-2.jpg" alt="" class="card__img">
+                  <div class="card__content">
+                    <h4 class="card__title">Toyota Prius 2023</h4>
+                    <p class="card__text">начальная цена ₽ 4590000</p>
+                    <p class="card__price">55000 ₽/мес</p>
+                  </div>
+                  <a href="contacts.html" class="card__link">связаться с нами</a>
+                </div>
+                <div class="card">
+                  <img src="images/card-9.jpg" alt="" class="card__img">
+                  <div class="card__content">
+                    <h4 class="card__title">Hyundai Kona 2023</h4>
+                    <p class="card__text">начальная цена ₽ 3990000</p>
+                    <p class="card__price">45000 ₽/мес</p>
+                  </div>
+                  <a href="contacts.html" class="card__link">связаться с нами</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a href="#" class="showmore-link">показать больше</a>
+        </div>
+      </section>
+      <section class="blog">
+        <div class="container">
+          <div class="blog__items">
+            <div class="blog__item">
+              <img src="images/blog-1.jpg" alt="" class="blog__item-img">
+              <h4 class="blog__item-title">Более простой способ купить свою новую Toyota</h4>
+              <a href="https://toyotanm.ru/about/news/novosti-v-rossii/s-1-sentiabria-kompaniia-toiota-zapuskaet-uslugu-legkii-obmen" class="blog__item-link">больше</a>
+            </div>
+            <div class="blog__item">
+              <img src="images/blog-2.jpg" alt="" class="blog__item-img">
+              <h4 class="blog__item-title">Руководство по путешествиям с домашними животными</h4>
+              <a href="https://www.onetwotrip.com/ru/blog/smart-travel/advice-smart-travel/all-about-travelling-with-pets/" class="blog__item-link">больше</a>
+            </div>
+          </div>
+          <a href="#" class="showmore-link">показать больше</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <nav class="footer__menu">
+          <ul class="footer__menu-list">
+            <li class="footer__menu-item">
+              <p class="footer__menu-title">Продукты</p>
+            </li>
+            <li class="footer__menu-item">
+              <a href="#" class="footer__menu-link">Используемый</a>
+            </li>
+            <li class="footer__menu-item">
+              <a href="#" class="footer__menu-link">Новое</a>
+            </li>
+            <li class="footer__menu-item">
+              <a href="#" class="footer__menu-link">Продай свой автомобиль</a>
+            </li>
+          </ul>
+          <ul class="footer__menu-list">
+            <li class="footer__menu-item">
+              <p class="footer__menu-title">Ресурсы</p>
+            </li>
+            <li class="footer__menu-item">
+              <a href="#" class="footer__menu-link">Блог</a>
+            </li>
+            <li class="footer__menu-item">
+              <a href="#" class="footer__menu-link">FAQ</a>
+            </li>
+            <li class="footer__menu-item">
+              <a href="#" class="footer__menu-link">Связаться с нами</a>
+            </li>
+          </ul>
+          <ul class="footer__menu-list">
+            <li class="footer__menu-item">
+              <p class="footer__menu-title">Работайте с TrueCar</p>
+            </li>
+            <li class="footer__menu-item">
+              <a href="#" class="footer__menu-link">Дилеры</a>
+            </li>
+            <li class="footer__menu-item">
+              <a href="#" class="footer__menu-link">Партнеры</a>
+            </li>
+          </ul>
+          <ul class="footer__menu-list">
+            <li class="footer__menu-item">
+              <p class="footer__menu-title">О нас</p>
+            </li>
+            <li class="footer__menu-item">
+              <a href="#" class="footer__menu-link">О нас</a>
+            </li>
+            <li class="footer__menu-item">
+              <a href="#" class="footer__menu-link">Команда</a>
+            </li>
+            <li class="footer__menu-item">
+              <a href="#" class="footer__menu-link">Карьеры</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="app">
+          <li class="app__item">
+            <a href="#" class="app__item-link">
+              <img src="images/appstore.svg" alt="" class="app__item-img">
+            </a>
+          </li>
+          <li class="app__item">
+            <a href="#" class="app__item-link">
+              <img src="images/googleplay.svg" alt="" class="app__item-img">
+            </a>
+          </li>
+        </ul>
+        <div class="footer__copy">
+          <p class="footer__copy-text">
+            По вопросам, связанным с услугой покупки автомобилей TrueCar, обращайтесь по телефону 1-888-878-3227.
+ Компания TrueCar обязывает сертифицированных дилеров соответствовать определенным требованиям к обслуживанию клиентов и
+пройти программу сертификации дилеров TrueCar.
+          </p>
+          <p class="footer__copy-text">
+            TrueCar не занимается брокерской деятельностью, продажей или арендой автотранспортных средств. Если не указано иное, все транспортные средства, представленные на этом
+веб-сайте, выставлены на продажу лицензированными дилерами автотранспортных средств. Все транспортные средства подлежат предварительной продаже. 
+Заходя на этот веб-сайт, вы соглашаетесь с Условиями предоставления услуг TrueCar и Политикой конфиденциальности.
+          </p>
+        </div>
+        <nav class="copy__nav">
+          <ul class="copy__nav-list">
+            <li class="copy__nav-item">
+              <a href="#" class="copy__nav-link">условия обслуживания</a>
+            </li>
+            <li class="copy__nav-item">
+              <a href="#" class="copy__nav-link">политика конфиденциальности</a>
+            </li>
+            <li class="copy__nav-item">
+              <a href="#" class="copy__nav-link">Не Продавайте Мою Личную информацию</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </div>
+
+
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
